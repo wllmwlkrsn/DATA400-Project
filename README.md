@@ -15,15 +15,15 @@ Mutation, clinical, and sample datasets were used from these studies.
 The data from the [Cancer Hotspots](https://www.cancerhotspots.org/#/home) was used filter out non-oncogenic mutations. 
 
 The processed data for this project includes:   
-'PATIENT_ID': A unique ID of each patient.   
-**CURRENT_AGE:** The patient's age at the time of sequencing, in years.   
-**SEX:** The sex of the patient.   
-**OS_STATUS:** The status (alive/dead) of the patient at a specific timepoint.  
-**OS_MONTHS:**  Time, in months, from diagnosis of the patient.  
-**RACE:** The race of the patient.  
-**ETHNICITY:** The ethnicity of the patient.  
-**SMOKING_STATUS:** True/Ever: Patient is a smoker or formerly smoked. False/Never: Patient has never smoked.  
-**Tumor_Sample_Barcode:** Unique ID of each sample.  
-**HAD_SURGERY:** Whether the patient recieved surgery to remove tumor(s). Not complete across all datasets. We are currently working to combine this variable across all datasets.  
-**Binary mutational hotspot variables:** Binary variables which indicate whether patient's tumor contains a mutation at each of the 1,165 mutational hotspots identified by [Cancer Hotspots](https://www.cancerhotspots.org/#/home).
+`PATIENT_ID`: A unique ID of each patient.   
+`CURRENT_AGE:` The patient's age at the time of sequencing, in years.   
+`SEX:` The sex of the patient.   
+`OS_STATUS:` The status (alive/dead) of the patient at a specific timepoint.  
+`OS_MONTHS:`  Time, in months, from diagnosis of the patient.  
+`RACE:` The race of the patient.  
+`ETHNICITY:` The ethnicity of the patient.  
+`SMOKING_STATUS:` True/Ever: Patient is a smoker or formerly smoked. False/Never: Patient has never smoked.  
+`Tumor_Sample_Barcode:` Unique ID of each sample.  
+`HAD_SURGERY:` Whether the patient recieved surgery to remove tumor(s). Not complete across all datasets. We are currently working to combine this variable across all datasets.  
+`Binary mutational hotspot variables:` Binary variables which indicate whether patient's tumor contains a mutation at each of the 1,165 mutational hotspots identified by [Cancer Hotspots](https://www.cancerhotspots.org/#/home).
 
