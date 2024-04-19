@@ -15,7 +15,7 @@ Mutation, clinical, and sample datasets were used from these studies.
 The data from the [Cancer Hotspots](https://www.cancerhotspots.org/#/home) was used filter out non-oncogenic mutations. 
 
 The processed data for this project includes:   
-**PATIENT_ID:** A unique ID of each patient.   
+'PATIENT_ID': A unique ID of each patient.   
 **CURRENT_AGE:** The patient's age at the time of sequencing, in years.   
 **SEX:** The sex of the patient.   
 **OS_STATUS:** The status (alive/dead) of the patient at a specific timepoint.  
